@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <canvas id="lienzo"></canvas>
+  <aside id="contenedor_herramientas">
+    <h2>Color</h2>
+    R: <div class="selector_color" id="rojo"></div>
+    <input type="number" class="valor_color" id="valor_rojo" min="0" max="255" value="0"><br>
+    G: <div class="selector_color" id="verde"></div>
+    <input type="number" class="valor_color" id="valor_verde" min="0" max="255" value="0"><br>
+    B: <div class="selector_color" id="azul"></div>
+    <input type="number" class="valor_color" id="valor_azul" min="0" max="255" value="0"><br>
+    <div id="color_actual"></div>
+  </aside>
+
+  <footer>
+    <div id="coordenadas"></div>
+  </footer>
+  <script src="logicaLienzo.js"></script>
+</body>
+
+</html>
